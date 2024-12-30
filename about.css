@@ -1,0 +1,64 @@
+#build_1 {
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 648px;
+}
+
+#abhi_img {
+    /* border: 2px solid green; */
+    height: 150px;
+    width: 170px;
+}
+
+#abt_p1 {
+    /* border: 2px solid goldenrod; */
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 80px;
+    width: 800px;
+    height: 580px;
+    float: right;
+    font-size: 130%;
+
+}
+
+#abt_p2{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    /* padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    font-size: 18px;
+    background-color: rgb(199, 220, 242);
+}
+
+strong{
+    background-color: rgb(199, 220, 242);
+}
+
+.abtphoto{
+    /* border: 2px solid blueviolet; */
+    display: inline;
+    height: 350px;
+    width: 400px;
+    margin-inline: 43px;
+}
+
+.abtbestpartner{
+    /* border: 2px solid orangered; */
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-inline: 282px;
+    margin-block: 90px;
+}
+
+.abtp{
+    /* border: 2px solid orange; */
+    font-weight: bolder;
+    font-size: 27px;
+    margin-block-start: 77px;
+}

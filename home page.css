@@ -1,0 +1,87 @@
+
+
+#img1{
+    background-image: url(img1.png);
+    height: 500px;
+    background-color: transparent;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#mar{
+    font-size: x-large;
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin: 10px;
+}
+
+.contactbar{
+    background-color: rgb(55, 47, 102);
+    border: 2px solid yellow;
+    display: flex;
+    height: 53px;
+    width: 100%;
+}
+
+#contact_bar img{
+    background-color: rgb(55, 47, 102);
+    /* margin-top: 22px; */
+    /* margin-left: 70px; */
+    height: 30px;
+    /* margin-bottom: 20px; */
+}
+
+#call_img{
+    /* border: 2px solid greenyellow; */
+    margin: 10px;
+    margin-left: 50px;
+} 
+
+#callno{
+    background-color: rgb(55, 47, 102);
+    color: white;
+    font-size: large;
+}
+
+#insta_para{
+    background-color: rgb(55, 47, 102);
+    color: white;
+    margin-left: 150px;
+    font-size: large;
+}
+
+#insta_img{
+    /* border: 2px solid greenyellow; */
+    margin: 8px;
+    margin-left: 20px;
+}
+
+#facebook_img{
+    /* border: 2px solid greenyellow; */
+    margin: 8px;
+    margin-left: 45px;
+}
+
+.contactbar a{
+    /* border: 3px solid gold; */
+    background-color: rgb(55, 47, 102);
+    padding: 0%;
+}
+
+#mail_img{
+    /* border: 3px solid gold; */
+    margin: 9px;
+    margin-left: 200px;
+}
+
+#mail_para{
+    background-color: rgb(55, 47, 102);
+    color: white;
+    font-size: large;
+}
+
+#cont_bar{
+    color: white;
+    padding-top: 17px;
+    margin-left: 175px;
+}

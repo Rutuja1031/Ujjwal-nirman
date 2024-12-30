@@ -1,0 +1,44 @@
+#contact_head{
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: rgb(199, 220, 242);
+    height: 300px;
+    width: 100%;
+    font-family:"Libre Caslon Display";
+    margin-block: 55px;
+}
+
+#contact_p1{
+    font-size: 60px;
+    background-color: rgb(199, 220, 242);
+    padding-block-start: 70px;
+}
+
+#contact_p2{
+    font-size: 35px;
+    background-color: rgb(199, 220, 242);
+    margin-block-start: -40px;
+}
+
+.cont_info{
+    /* border: 3px solid greenyellow; */
+    font-family: "Domine";
+    line-height: 33px;
+    width: 450px;
+    margin-inline: 200px;
+    margin-block: 110px;
+}
+
+.contact_title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.service_imgs {
+    /* border: 3px solid red; */
+    display: inline;
+    height: 200px;
+    width: 270px;
+    margin-inline: 48px;
+    margin-block-start: 43px;
+}

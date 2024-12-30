@@ -1,0 +1,65 @@
+.registration_form{
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 409px;
+    float: right;
+    margin-top: -586px;
+    margin-right: 220px;
+    padding-block-start: 11px;
+    height: 442px;
+}
+
+h1{
+    /* border: 2px solid green; */
+    text-align: center;
+    margin-block-start: 10px;
+    padding-block-end: 10px;
+    text-shadow: 0 1px 1px black;
+    text-decoration: underline;
+}
+
+.form_label{
+    text-align: left;
+    display: grid;
+    margin-block: 35px;
+}
+
+input,
+textarea{
+    width: 100%;
+    border: 1px solid rgb(172 172 172 / 98%);
+    border-radius: 0.2rem;
+}
+
+#project_address{
+    /* border: 2px solid red; */
+    padding-block-end: 50px;
+}
+
+button{
+    padding-inline: 15px;
+    padding-block: 4px;
+    margin-block-start: -7px;
+    font-size: 15px;
+    text-align: left;
+    border: 1px solid rgb(172 172 172 / 98%);
+    border-radius: 0.2rem;
+    text-align: right;
+}
+
+#registration_form{
+    line-height: 29px;
+    padding-inline: 5px;
+}
+
+#input_submit{
+    padding-inline: 15px;
+    padding-block: 4px;
+    margin-block-start: -7px;
+    font-size: 15px;
+    text-align: left;
+    border: 1px solid rgb(172 172 172 / 98%);
+    border-radius: 0.2rem;
+    text-align: right;
+}

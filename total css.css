@@ -1,0 +1,201 @@
+* {
+    background-color: rgb(239, 245, 249);
+    color: rgb(63, 61, 61);
+}
+
+.container {
+    /* border: 3px solid greenyellow; */
+}
+
+.frontline {
+    background-color: rgb(55, 47, 102);
+    color: floralwhite;
+    text-align: center;
+    font-size: 22px;
+    height: 36px;
+    margin-top: 0rem;
+    padding-top: 5px;
+}
+
+header {
+    width: 100%;
+    /* border: 3px solid black; */
+    margin-top: 10px;
+}
+
+.navbar ul {
+    overflow: auto;
+    list-style: none;/* to delet the dot from list */
+    /* border: 3px solid green; */
+}
+
+.navbar li {
+    border: 1px solid black;
+    float: inline-start;
+    font-size: 20px;
+    padding: 0px;
+    margin: 27px;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 48px;
+}
+
+.navbar img {
+    padding: 0px;
+    height: 15%;
+    width: 15%;
+}
+
+#img1{
+    background-image: url(img1.png);
+    height: 500px;
+    background-color: transparent;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#mar{
+    font-size: x-large;
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin: 10px;
+}
+
+.contactbar{
+    background-color: rgb(55, 47, 102);
+    border: 2px solid yellow;
+    display: flex;
+    height: 53px;
+    width: 100%;
+}
+
+#contact_bar img{
+    background-color: rgb(55, 47, 102);
+    /* margin-top: 22px; */
+    /* margin-left: 70px; */
+    height: 30px;
+    /* margin-bottom: 20px; */
+}
+
+#call_img{
+    /* border: 2px solid greenyellow; */
+    margin: 10px;
+    margin-left: 50px;
+} 
+
+#callno{
+    background-color: rgb(55, 47, 102);
+    color: white;
+    font-size: large;
+}
+
+#insta_para{
+    background-color: rgb(55, 47, 102);
+    color: white;
+    margin-left: 150px;
+    font-size: large;
+}
+
+#insta_img{
+    /* border: 2px solid greenyellow; */
+    margin: 8px;
+    margin-left: 20px;
+}
+
+#facebook_img{
+    /* border: 2px solid greenyellow; */
+    margin: 8px;
+    margin-left: 45px;
+}
+
+.contactbar a{
+    /* border: 3px solid gold; */
+    background-color: rgb(55, 47, 102);
+    padding: 0%;
+}
+
+#mail_img{
+    /* border: 3px solid gold; */
+    margin: 9px;
+    margin-left: 200px;
+}
+
+#mail_para{
+    background-color: rgb(55, 47, 102);
+    color: white;
+    font-size: large;
+}
+
+#cont_bar{
+    color: white;
+    padding-top: 17px;
+    margin-left: 175px;
+}
+
+#build_1 {
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 648px;
+}
+
+#abhi_img {
+    /* border: 2px solid green; */
+    height: 150px;
+    width: 170px;
+}
+
+#abt_p1 {
+    /* border: 2px solid goldenrod; */
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 80px;
+    width: 800px;
+    height: 580px;
+    float: right;
+    font-size: 130%;
+
+}
+
+#abt_p2{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    /* padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    font-size: 18px;
+    background-color: rgb(199, 220, 242);
+}
+
+strong{
+    background-color: rgb(199, 220, 242);
+}
+
+.abtphoto{
+    /* border: 2px solid blueviolet; */
+    display: inline;
+    height: 350px;
+    width: 400px;
+    margin-inline: 43px;
+}
+
+.abtbestpartner{
+    /* border: 2px solid orangered; */
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-inline: 282px;
+    margin-block: 90px;
+}
+
+.abtp{
+    /* border: 2px solid orange; */
+    font-weight: bolder;
+    font-size: 27px;
+    margin-block-start: 77px;
+}

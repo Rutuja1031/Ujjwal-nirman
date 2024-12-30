@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script>
+        function validateForm() {
+            var name = document.forms["registrationForm"]["name"].value;
+            var address = document.forms["registrationForm"]["address"].value;
+            var mobile = document.forms["registrationForm"]["mobile"].value;
+            var email = document.forms["registrationForm"]["email"].value;
+
+            if (name == "" || address == "" || mobile == "" || email == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+
+            // Create a new workbook and a new sheet
+            var wb = XLSX.utils.book_new();
+            var ws_data = [
+                ["Name", "Address", "Mobile Number", "Email ID"],
+                [name, address, mobile, email]
+            ];
+            var ws = XLSX.utils.aoa_to_sheet(ws_data);
+
+            // Append the sheet to the workbook
+            XLSX.utils.book_append_sheet(wb, ws, "Sheet1");
+
+            // Generate a file and prompt download
+            XLSX.writeFile(wb, "submissions.xlsx");
+
+            // Show message box
+            alert("Data Saved Successfully!");
+
+            // Prevent form submission
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form name="registrationForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br><br>
+        
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" name="mobile"><br><br>
+        
+        <label for="email">Email ID:</label>
+        <input type="text" id="email" name="email"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
